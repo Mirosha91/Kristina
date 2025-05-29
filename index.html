@@ -95,13 +95,14 @@
         }
         
         .day {
-            min-height: 100px;
+            min-height: 120px;
             padding: 8px;
             border-radius: 6px;
             background-color: var(--primary);
             border: 1px solid var(--border);
             cursor: pointer;
             transition: all 0.2s ease;
+            overflow: hidden;
         }
         
         .day:hover {
@@ -121,6 +122,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            max-width: 100%;
         }
         
         .personal-task {
